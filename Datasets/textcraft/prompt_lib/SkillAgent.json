@@ -8,7 +8,7 @@
         "top_p": 0.95
     },
     "available_action": ["MakePlan", "ToolRequest", "NotebookBlock", "Terminate"],
-    "system_prompt": "Datasets/textcraft/prompt_lib/solvingagent_prompt2.txt",
+    "system_prompt": "Datasets/textcraft/prompt_lib/solvingagent_prompt.txt",
     "memory_window_size": 10
     },
     {
@@ -20,7 +20,7 @@
             "top_p": 0.95
         },
         "available_action": ["CreateTool", "EditTool"],
-        "system_prompt": "Datasets/textcraft/prompt_lib/toolagent_prompt2.txt",
+        "system_prompt": "Datasets/textcraft/prompt_lib/toolagent_prompt.txt",
         "memory_window_size": 10
     },
     {
